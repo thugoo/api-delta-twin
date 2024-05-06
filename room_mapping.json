@@ -1,0 +1,1406 @@
+{
+    "2001": {
+        "has_events": false,
+        "description": "Koridor",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2001-A": {
+        "has_events": false,
+        "description": "Lift-1",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2001-B": {
+        "has_events": false,
+        "description": "Lift-2",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2001-C": {
+        "has_events": false,
+        "description": "Lift-3",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2001-D": {
+        "has_events": false,
+        "description": "Koridor",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2002": {
+        "has_events": false,
+        "description": "Serveriruum",
+        "qe_device_name": "AK41'Uld",
+        
+        "qe_device_id": "751",
+        "qe_temperature": "Te2002",
+        "qe_co2": ""
+    },
+
+    "2002-A": {
+        "has_events": false,
+        "description": "Tehnika",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2002-B": {
+        "has_events": false,
+        "description": "Tehnika",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2002-C": {
+        "has_events": false,
+        "description": "Tehnika",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "2003": {
+        "has_events": true,
+        "description": "Arvutiklass",
+        "qe_device_name": "AK04'Vent'SV1'Vav",
+        
+        "qe_device_id": "653",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    }, 
+    
+    "2004": {
+        "has_events": true,
+        "description": "Arvutiklass",
+        "qe_device_name": "AK04'Vent'SV1'Vav1",
+        
+        "qe_device_id": "655",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    }, 
+    
+    "2005": {
+        "has_events": true,
+        "description": "Arvutiklass",
+        "qe_device_name": "AK04'Vent'SV1'Vav2",
+        
+        "qe_device_id": "656",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    }, 
+    
+    "2006": {
+        "has_events": true,
+        "description": "Arvutiklass",
+        "qe_device_name": "AK04'Vent'SV1'Vav3",
+        
+        "qe_device_id": "657",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    }, 
+    
+    "2007": {
+        "has_events": true,
+        "description": "Labor AG ja VR",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2008": {
+        "has_events": false,
+        "description": "WC",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2009": {
+        "has_events": false,
+        "description": "WC",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2010": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK01'Vent'SV5'Vav3",
+        
+        "qe_device_id": "202",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    }, 
+
+    "2011": {
+        "has_events": false,
+        "description": "Neuroturunduse labor",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2012": {
+        "has_events": false,
+        "description": "Neuroturunduse katseruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2013": {
+        "has_events": false,
+        "description": "Trepikoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2014": {
+        "has_events": false,
+        "description": "Koristus",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+
+    "2015": {
+        "has_events": false,
+        "description": "Tehnika",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2016": {
+        "has_events": false,
+        "description": "Hoiuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2017": {
+        "has_events": true,
+        "description": "Arvutiklass",
+        "qe_device_name": "AK01'Vent'SV5'Vav1",
+        
+        "qe_device_id": "200",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    }, 
+    
+    "2018": {
+        "has_events": false,
+        "description": "IoT labor 2",
+        "qe_device_name": "AK04'Vent'SV7'Vav",
+        
+        "qe_device_id": "699",
+        "qe_temperature": "T su",
+        "qe_co2": "DP"
+    }, 
+    
+    "2019": {
+        "has_events": false,
+        "description": "IoT labor 1",
+        "qe_device_name": "AK04'Vent'SV7'Vav",
+        
+        "qe_device_id": "699",
+        "qe_temperature": "T su1",
+        "qe_co2": "DP1"
+    }, 
+    
+    "2020": {
+        "has_events": false,
+        "description": "Robootika labor",
+        "qe_device_name": "AK04'Vent'SV7'Vav",
+        
+        "qe_device_id": "699",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP2"
+    }, 
+    
+    "2021": {
+        "has_events": true,
+        "description": "Arvutiklass",
+        "qe_device_name": "AK01'Vent'SV5'Vav2",
+        
+        "qe_device_id": "201",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    }, 
+    
+    "2022": {
+        "has_events": true,
+        "description": "Labor (Šahab)",
+        "qe_device_name": "AK04'Vent'SV7'Vav1",
+        
+        "qe_device_id": "701",
+        "qe_temperature": "T su",
+        "qe_co2": "DP"
+    }, 
+
+    "2023": {
+        "has_events": true,
+        "description": "Labor (arvutitehnika)",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2024": {
+        "has_events": true,
+        "description": "Labor (suur arvutitehnika)",
+        "qe_device_name": "AK04'Vent'SV7'Vav2",
+        
+        "qe_device_id": "703",
+        "qe_temperature": "T su",
+        "qe_co2": "DP"
+    }, 
+    
+    "2025": {
+        "has_events": true,
+        "description": "Labor (mehaanika)",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2026": {
+        "has_events": false,
+        "description": "Laoruum (arvutitehnika)",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2027": {
+        "has_events": true,
+        "description": "Labor (arvutitehnika)",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2028": {
+        "has_events": false,
+        "description": "Töömees",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2029": {
+        "has_events": true,
+        "description": "Arvutiklass",
+        "qe_device_name": "AK02'Vent'SV4'Vav10",
+        
+        "qe_device_id": "493",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2030": {
+        "has_events": true,
+        "description": "Arvutiklass",
+        "qe_device_name": "AK02'Vent'SV4'Vav11",
+        
+        "qe_device_id": "494",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },  
+
+    "2031": {
+        "has_events": false,
+        "description": "Koristus",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2032": {
+        "has_events": false,
+        "description": "Tehnika",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },  
+
+    "2033": {
+        "has_events": false,
+        "description": "Trepikoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },  
+    
+    "2034": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK02'Vent'SV4'Vav12",
+        
+        "qe_device_id": "495",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2035": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK02'Vent'SV4'Vav13",
+        
+        "qe_device_id": "496",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2036": {
+        "has_events": false,
+        "description": "Tudengite puhkeala",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2037": {
+        "has_events": false,
+        "description": "WC",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2038": {
+        "has_events": false,
+        "description": "Tudengite köök",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2039": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK02'Vent'SV4'Vav4",
+        
+        "qe_device_id": "498",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2040": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK02'Vent'SV4'Vav5",
+        
+        "qe_device_id": "499",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2041": {
+        "has_events": false,
+        "description": "Stuudio",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2042": {
+        "has_events": false,
+        "description": "Büroo",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2043": {
+        "has_events": false,
+        "description": "Trepikoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2044": {
+        "has_events": false,
+        "description": "WC",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+
+    "2045": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK02'Vent'SV4'Vav9",
+        
+        "qe_device_id": "503",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2046": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK02'Vent'SV4'Vav8",
+        
+        "qe_device_id": "502",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2047": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK02'Vent'SV4'Vav7",
+        
+        "qe_device_id": "501",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2048": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK02'Vent'SV4'Vav6 ",
+        
+        "qe_device_id": "500",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }, 
+    
+    "2049": {
+        "has_events": false,
+        "description": "Nõupidamine",
+        "qe_device_name": "AK04'Vent'SV1'Vav4 ",
+        
+        "qe_device_id": "658",
+        "qe_temperature": "",
+        "qe_co2": "DP"
+    }, 
+    
+    "2050": {
+        "has_events": false,
+        "description": "WC",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2051": {
+        "has_events": false,
+        "description": "Kabinet (IT tugi)",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2052": {
+        "has_events": false,
+        "description": "Tehnika",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    "2053": {
+        "has_events": false,
+        "description": "Trepikoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+
+    "QR-A": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "QR-B": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "QR-C": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "QR-D": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "QR-E": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "QR-F": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "QR-G": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "QR-H": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "QR-I": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    "QR-J": {
+        "has_events": true,
+        "description": "Koosolekuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "1001": {
+        "has_events": false,
+        "description": "Tuulekoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    
+    "1002": {
+        "has_events": false,
+        "description": "Koridor",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+
+    "1002-A": {
+        "has_events": false,
+        "description": "Lift-1",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+
+    "1002-B": {
+        "has_events": false,
+        "description": "Lift-2",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+
+    "1002-C": {
+        "has_events": false,
+        "description": "Lift-3",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    
+    "1003": {
+        "has_events": false,
+        "description": "WC",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    
+    "1004": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK01'Vent'SV6'Vav ",
+        
+        "qe_device_id": "223",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    },
+
+    
+    "1005": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK01'Vent'SV6'Vav1",
+        
+        "qe_device_id": "224",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    },
+    
+    
+    "1006": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK01'Vent'SV6'Vav2",
+        
+        "qe_device_id": "225",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    },
+    
+    
+    "1007": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK01'Vent'SV6'Vav3",
+        
+        "qe_device_id": "226",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    },
+    
+    
+    "1008": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK01'Vent'SV6'Vav4",
+        
+        "qe_device_id": "227",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    },
+    
+    
+    "1009": {
+        "has_events": false,
+        "description": "Koristus",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1010": {
+        "has_events": false,
+        "description": "WC",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1011": {
+        "has_events": false,
+        "description": "Trepikoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1012": {
+        "has_events": false,
+        "description": "Trepikoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1013": {
+        "has_events": false,
+        "description": "Raamatukogu hoidla",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1014": {
+        "has_events": false,
+        "description": "Tehnika",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1015": {
+        "has_events": false,
+        "description": "Lugemissaal",
+        "qe_device_name": "AK01'Vent'SV5'Vav",
+        
+        "qe_device_id": "198",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    },
+    
+    
+    "1016": {
+        "has_events": false,
+        "description": "Ladu",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1017": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK01'Vent'SV2'Vav",
+        
+        "qe_device_id": "170",
+        "qe_temperature": "T su2",
+        "qe_co2": "DP"
+    },
+    
+    
+    "1018": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK01'Vent'SV2'Vav1",
+        
+        "qe_device_id": "172",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    },
+    
+    
+    "1019": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK01'Vent'SV2'Vav2",
+        
+        "qe_device_id": "174",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    },
+    
+    
+    "1020": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK01'Vent'SV2'Vav3",
+        
+        "qe_device_id": "176",
+        "qe_temperature": "T Su2",
+        "qe_co2": "DP"
+    },
+    
+    
+    "1021": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK03'Vent'SV3'Vav",
+        
+        "qe_device_id": "593",
+        "qe_temperature": "T Su2",
+        "qe_co2": ""
+    },
+    
+    
+    "1022": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK03'Vent'SV3'Vav1",
+        
+        "qe_device_id": "595",
+        "qe_temperature": "T Su2",
+        "qe_co2": ""
+    },
+    
+    
+    "1023": {
+        "has_events": false,
+        "description": "Tuulekoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1024": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK02'Vent'SV4'Vav",
+        
+        "qe_device_id": "490",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1025": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK02'Vent'SV4'Vav1",
+        
+        "qe_device_id": "492",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1026": {
+        "has_events": true,
+        "description": "Seminariruum",
+        "qe_device_name": "AK02'Vent'SV4'Vav2",
+        
+        "qe_device_id": "497",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1027": {
+        "has_events": false,
+        "description": "Koristus",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1028": {
+        "has_events": false,
+        "description": "Tehnika",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1029": {
+        "has_events": false,
+        "description": "Trepikoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1030": {
+        "has_events": false,
+        "description": "Ideelabor",
+        "qe_device_name": "AK02'Vent'SV4'RomMon",
+        
+        "qe_device_id": "541",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+
+    "1030-A": {
+        "has_events": false,
+        "description": "Kabinet",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+
+    "1030-B": {
+        "has_events": false,
+        "description": "Nõupidamine",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    
+    "1031": {
+        "has_events": false,
+        "description": "Köök",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1031-A": {
+        "has_events": false,
+        "description": "Nõudepesu",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1031-B": {
+        "has_events": false,
+        "description": "Ladu",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1031-C": {
+        "has_events": false,
+        "description": "Kabinet",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1031-D": {
+        "has_events": false,
+        "description": "Riietusruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1031-E": {
+        "has_events": false,
+        "description": "WC",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1031-F": {
+        "has_events": false,
+        "description": "Koridor",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1031-G": {
+        "has_events": false,
+        "description": "Dušh",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+    
+    "1032": {
+        "has_events": false,
+        "description": "Prügiruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1033": {
+        "has_events": false,
+        "description": "Aednik",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1034": {
+        "has_events": false,
+        "description": "WC",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+
+    "1034-F": {
+        "has_events": false,
+        "description": "WC Inva",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1035": {
+        "has_events": false,
+        "description": "Garderoob",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1036": {
+        "has_events": false,
+        "description": "Hoiuruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1037": {
+        "has_events": true,
+        "description": "Auditoorium",
+        "qe_device_name": "AK03'Vent'SV9",
+        
+        "qe_device_id": "597",
+        "qe_temperature": "T su3",
+        "qe_co2": "D"
+    },
+    
+    
+    "1038": {
+        "has_events": false,
+        "description": "Turva",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+
+    "1038-A": {
+        "has_events": false,
+        "description": "Turva",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1039": {
+        "has_events": false,
+        "description": "Arvutimuuseum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1040": {
+        "has_events": false,
+        "description": "Halduri ruum",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+
+    "1041": {
+        "has_events": false,
+        "description": "Trepikoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+    
+    
+    "1042": {
+        "has_events": false,
+        "description": "Tehnika",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },    
+
+    
+    "1043": {
+        "has_events": false,
+        "description": "Trepikoda",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },    
+
+    
+    "1044": {
+        "has_events": false,
+        "description": "Madalpinge jaotla",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },    
+
+    
+    "1045": {
+        "has_events": false,
+        "description": "Trafo 1",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },    
+
+    
+    "1046": {
+        "has_events": false,
+        "description": "Generaator",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },    
+
+    
+    "1047": {
+        "has_events": false,
+        "description": "Alajaam",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    },
+
+
+    "1048": {
+        "has_events": false,
+        "description": "Trafo 2",
+        "qe_device_name": "",
+        
+        "qe_device_id": "",
+        "qe_temperature": "",
+        "qe_co2": ""
+    }
+}
+
+

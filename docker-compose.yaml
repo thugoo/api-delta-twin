@@ -1,0 +1,14 @@
+services:
+  app:
+    network_mode: bridge
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: api-delta-twin
+    ports:
+      - '5000:5000'
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - TZ=Europe/Tallinn
