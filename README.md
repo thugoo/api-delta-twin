@@ -78,6 +78,7 @@ API is available at http://172.17.89.119.nip.io/api. Access requires a connectio
 ```
 /
 ¦   ...
+¦   auth.json                 // Access credentials for Delta Centre's study and research facilities on the Cumulocity IoT platform, not tracked by Git
 ¦   api.js                    // 
 ¦   docker-compose.yaml       // Defines services, networks, and volumes for all containers
 ¦   Dockerfile                // Defines the steps to build the Docker image for the main application
