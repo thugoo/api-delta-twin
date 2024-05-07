@@ -73,9 +73,9 @@ API endpoints:
 
 # Deploying the data querying services and API
 
-The backend services use Docker for deployment.
+The backend services utilize Docker for deployment
 
-To build the image, the container and start the container:
+To build and start the container, follow these steps:
 
-1. Navigate to the project directory in your terminal.
-2. Execute `docker compose up --build` in your terminal.
+1. Open your terminal and navigate to the project directory.
+2. Run the command `docker compose up --build` in your terminal.
