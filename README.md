@@ -7,7 +7,7 @@ Project containing the source code for the web application can be found [here.](
 
 API is available at http://172.17.89.119.nip.io/api. Access requires a connection to the UT VPN.
 
-### API endpoints
+## API endpoints
 **/api/measurements** - Temperature and CO2 concentration measurements from the rooms.
 
 ```
@@ -66,13 +66,13 @@ API is available at http://172.17.89.119.nip.io/api. Access requires a connectio
 
 <br>
 
-**Workflow flowchart:**
+## Workflow flowchart
 
 ![Workflow](workflow-flowchart.svg)
 
 <br>
 
-# Project structure
+## Project structure
 ```
 /
 ¦   ...
@@ -89,7 +89,7 @@ API is available at http://172.17.89.119.nip.io/api. Access requires a connectio
 ¦   workflow-flowchart.svg    // Workflow flowchart
 ```
 
-# Deployment
+## Deployment
 
 The backend services utilize Docker for deployment
 
