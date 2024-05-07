@@ -74,7 +74,7 @@ API endpoints:
 # File structure
 
 
-# Deploying the backend services
+# Deployment
 
 The backend services utilize Docker for deployment
 
