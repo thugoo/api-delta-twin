@@ -1,16 +1,19 @@
 # Delta Twin
 
-Platform for visualizing the current status of the Delta Centre's study and research facility. It uses real-time data collected from the building's automation system and various deployed sensors.
+Platform for visualizing the current status of the Delta Centre's study and research facility.  
+It uses real-time data collected from the building's automation system and various deployed sensors.
 
-Platform is available at http://172.17.89.119.nip.io. Access requires a connection to the UT VPN.
+**This project includes the source code for the data querying services and the API.**  
+Project containing the source code for the web application can be found here: https://github.com/thugoo/client-delta-twin
 
-The platform is composed of data querying services, an API for broadcasting data, and a web application.
+API endpoints are available at http://172.17.89.119.nip.io/api. Access requires a connection to the UT VPN.
 
-**This project includes the source code for the data querying services and the API.**
+Available endpoints:  
+**/api/measurements** -   
+**/api/timetables** - 
 
-Project containing the source code for the web application can be found here: https://gitlab.ut.ee/hugo.martin.teemus/client-delta-twin
 
-Diagram of the workflow:
+**Workflow flowchart:**
 
 ![Workflow](workflow.svg)
 
