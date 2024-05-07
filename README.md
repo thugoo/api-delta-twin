@@ -1,4 +1,4 @@
-# Delta Twin
+# Delta Twin - backend services
 
 Platform for displaying the current status of the Delta Centre's study and research facility, utilizing real-time data from the building’s automation system and various deployed sensors.
 
