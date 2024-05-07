@@ -68,7 +68,7 @@ API is available at http://172.17.89.119.nip.io/api. Access requires a connectio
 
 **Workflow flowchart:**
 
-![Workflow](workflow.svg)
+![Workflow](workflow-flowchart.svg)
 
 <br>
 
