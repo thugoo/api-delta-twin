@@ -5,12 +5,14 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 5000;
 
-// const clientUrl = "http://172.17.89.119.nip.io/";
-const clientUrl = "http://localhost:3000";
+// Use the domain name assigned to the web application
+const clientUrl = "http://172.17.89.119.nip.io/";
 
-// CORS is used when no SSL certificate is used. 
+// For local testing
+// const clientUrl = "http://localhost:3000";
+
+// CORS is used when no TSL certificate is used
 app.use(cors({ origin: clientUrl }))
-
 
 app.get('/api/measurements', (req, res) => {
     fs.readFile('room_measurements.json', 'utf8', (err, fileData) => {
