@@ -112,6 +112,6 @@ To build and start the container, follow these steps:
 ```
 You need to insert the Delta Centre's Cumulocity IoT account information. Account must have read permissions.  
 
-3. Ensure that the "clientUrl" value in api.js matches the web application's URL.  
+3. Ensure that the "clientUrl" value in \api.js matches the web application's URL.  
 
 4. Run the command `docker compose up --build` in your terminal.  
