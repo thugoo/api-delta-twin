@@ -100,5 +100,18 @@ The backend services utilize Docker for deployment
 
 To build and start the container, follow these steps:
 
-1. Open your terminal and navigate to the project directory.
-2. Run the command `docker compose up --build` in your terminal.
+1. Open your terminal and navigate to the project directory.  
+   
+2. Create a file named "auth.json" with the following structure:  
+```
+{
+    "domain": "https://delta.iot.cs.ut.ee",
+    "username": username_here,
+    "password": password_here
+}
+```
+You need to insert the Delta Centre's Cumulocity IoT account information. Account must have read permissions.  
+
+3. Ensure that the "clientUrl" value in api.js matches the web application's URL.  
+
+4. Run the command `docker compose up --build` in your terminal.  
