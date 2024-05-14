@@ -8,7 +8,6 @@ const domain = auth["domain"];
 const username = auth["username"];
 const password = auth["password"];
 
-console.log(domain, username, password)
 
 let queryRooms = {};
 
