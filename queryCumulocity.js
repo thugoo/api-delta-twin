@@ -4,13 +4,15 @@ const fs = require('fs');
 
 const auth = JSON.parse(fs.readFileSync('auth.json', 'utf8'));
 
+
+// Authorization information is located in /auth.json
 const domain = auth["domain"];
 const username = auth["username"];
 const password = auth["password"];
 
-
 let queryRooms = {};
 
+// Reading in the mappings
 fs.readFile("room_mapping.json", 'utf8', (err, jsonString) => {
     if (err) {
         console.log("Error reading file:", err);

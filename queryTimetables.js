@@ -5,6 +5,7 @@ const fs = require('fs')
 const endpoint = "https://ois2.ut.ee/api/timetable/room";
 const headers = { 'Content-Type': 'application/json' };
 
+// payload for SIS endpoint
 let payload = {
     "building": "NAR18OH",
     "room": "",
@@ -44,15 +45,11 @@ try {
 }
 
 
-/**
- * 
- * Used for querying readings from the SIS API.
- * Avoids e.g. querying the day before at 1 AM Europe/Tallinn time.
- * 
- * @param {*} date 
- * @returns Local time in ISO string format.
- */
 function dateToISOButLocal(date) {
+    /**
+     * Used for querying readings from the SIS API.
+     * Avoids e.g. querying the day before at 1 AM Europe/Tallinn time.
+     */
     const offsetMs = date.getTimezoneOffset() * 60 * 1000;
     const msLocal = date.getTime() - offsetMs;
 
@@ -110,6 +107,8 @@ async function querySis() {
 
 
 async function queryMeetingRooms() {
+
+    // Mapping of the DeltaQR room number/API id values
     const qrRoomCodes = {
         A: 24,
         B: 26,
@@ -226,6 +225,8 @@ async function initialQuerying() {
 
 initialQuerying();
 
+// SIS timetables are queried once every 24 hrs, 
+// DeltaQR is queried and events are processed every minute.
 cron.schedule('* * * * *', async () => {
     const now = new Date();
     if (now.getHours() === 0 && now.getMinutes() === 0) {
