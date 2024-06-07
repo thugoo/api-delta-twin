@@ -1,50 +1,22 @@
+const fs = require('fs');
 const axios = require('axios');
 const cron = require('node-cron');
-const fs = require('fs');
-
-const auth = JSON.parse(fs.readFileSync('auth.json', 'utf8'));
-
-
-// Authorization information is located in /auth.json
-const domain = auth["domain"];
-const username = auth["username"];
-const password = auth["password"];
-
-let queryRooms = {};
-
-// Reading in the mappings
-fs.readFile("room_mapping.json", 'utf8', (err, jsonString) => {
-    if (err) {
-        console.log("Error reading file:", err);
-        return;
-    }
-
-    const mapping = JSON.parse(jsonString);
-
-    queryRooms = [];
-
-    for (let roomNumber in mapping) {
-        queryRooms.push(
-            {
-                "room_number": roomNumber,
-                "qe_device_id": mapping[roomNumber]["qe_device_id"],
-                "types": {
-                    "qe_temperature": mapping[roomNumber]["qe_temperature"],
-                    "qe_co2": mapping[roomNumber]["qe_co2"]
-                }
-            }  
-        );
-    }
-});
 
 
 async function queryCumulocity() {
 
+    // Measurement data points are queried between one minute ago and the current time.
     const oneMinuteAgo = new Date(Date.now() - 1 * 60 * 1000).toISOString();
     const currentMinute = new Date(Date.now()).toISOString();
 
     let lastQueries;
 
+    /**
+     * Check if measurements from the last querying run exist.
+     * 
+     * If no data points for a measurement are returned from the current querying run, 
+     * the corresponding measurement values from the last querying run are used.
+     */
     if (fs.existsSync('room_measurements.json')) {
         lastQueries = JSON.parse(fs.readFileSync('room_measurements.json', 'utf8'));
     } else {
@@ -53,16 +25,18 @@ async function queryCumulocity() {
 
     let data = {};
 
-    for (let roomData of queryRooms) {
+    for (let roomData of rooms) {
 
         let response = {}
 
         let roomNumber = roomData["room_number"];
         let deviceId = roomData["qe_device_id"];
 
-
         for (let key of Object.keys(roomData["types"])) {
+            
+            // Value types must not contain whitespaces in Cumulocity queries.
             let type = roomData["types"][key].replace(/\s/g, '')
+
             if (type) {
                 const endpoint = `/measurement/measurements?source=${deviceId}&dateFrom=${oneMinuteAgo}&dateTo=${currentMinute}&valueFragmentType=${type}`;
                 const res = await axios.get(`${domain}${endpoint}`, {
@@ -71,6 +45,18 @@ async function queryCumulocity() {
                     }
                 });
 
+                /**
+                 * Follows the logic:
+                 * 
+                 * 1. if data points for a measurement are returned.
+                 * 
+                 * 2. else if data points for a measurement are not returned, 
+                 *    but corresponding measurement values from the last querying run exist.
+                 * 
+                 * 3. else if data points for a measurement are not returned
+                 *    and corresponding measurement values from the last querying run do not exist.
+                 * 
+                 */
                 if (res.data["measurements"].length > 0) {
                     let date = new Date(res.data["measurements"][0]["time"]);
                     date.setSeconds(0, 0);
@@ -80,22 +66,17 @@ async function queryCumulocity() {
                     response[`${key}_time`] = formattedDate;
 
                 } else if (roomNumber in lastQueries) {
-                    
                     response[key] = lastQueries[roomNumber][key];
                     response[`${key}_time`] = lastQueries[roomNumber][`${key}_time`];
 
                 } else {
-                    
                     response[key] = "No data";
                     response[`${key}_time`] = "No data";
-
                 }
 
             } else {
-                                    
                 response[key] = "No data";
                 response[`${key}_time`] = "No data";
-
             }
         }
 
@@ -104,8 +85,48 @@ async function queryCumulocity() {
     }
 
     fs.writeFileSync('room_measurements.json', JSON.stringify(data, null, 2));
-    console.log(`Cumulocity querying completed, "room_measurements.json" file updated at ${new Date().toISOString()}`);
+    console.info(`Successfully queried Cumulocity. "room_measurements.json" file updated at ${new Date().toISOString()}`);
 }
 
 
-cron.schedule('* * * * *', queryCumulocity);
+/**
+ * Initial boot setup.
+ * 
+ * 1. Read in the authorization information for Cumulocity, located in auth.json.
+ * 2. Read in the mappings between room numbers and device ID values.
+ * 3. Start querying Cumulocity for temperate and CO2 concentration values.
+ */
+const auth = JSON.parse(fs.readFileSync('auth.json', 'utf8'));
+
+const domain = auth["domain"];
+const username = auth["username"];
+const password = auth["password"];
+
+let rooms;
+
+try {
+    const jsonString = fs.readFileSync("room_mapping.json", 'utf8');
+
+    const roomMappings = JSON.parse(jsonString);
+    rooms = [];
+
+    for (let roomNumber in roomMappings) {
+        rooms.push(
+            {
+                "room_number": roomNumber,
+                "qe_device_id": roomMappings[roomNumber]["qe_device_id"],
+                "types": {
+                    "qe_temperature": roomMappings[roomNumber]["qe_temperature"],
+                    "qe_co2": roomMappings[roomNumber]["qe_co2"]
+                }
+            }  
+        );
+    }
+
+    // Querying Cumulocity initially and then every minute thereafter.
+    queryCumulocity();
+    cron.schedule('* * * * *', queryCumulocity);
+
+} catch (err) {
+    console.error("Error reading file:", err);
+}

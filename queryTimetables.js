@@ -26,7 +26,7 @@ try {
     };
 
     rooms.forEach(room => {
-        if (roomsData[room].has_events) {
+        if (roomsData[room].has_timetable_events) {
             roomTimetables[room] = { ...roomTimetableTemplate };
         }
     });

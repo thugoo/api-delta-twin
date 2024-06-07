@@ -1,6 +1,6 @@
 {
     "2001": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Koridor",
         "qe_device_name": "",
         
@@ -10,7 +10,7 @@
     },
 
     "2001-A": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Lift-1",
         "qe_device_name": "",
         
@@ -20,7 +20,7 @@
     },
 
     "2001-B": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Lift-2",
         "qe_device_name": "",
         
@@ -30,7 +30,7 @@
     },
 
     "2001-C": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Lift-3",
         "qe_device_name": "",
         
@@ -40,7 +40,7 @@
     },
 
     "2001-D": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Koridor",
         "qe_device_name": "",
         
@@ -50,7 +50,7 @@
     },
 
     "2002": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Serveriruum",
         "qe_device_name": "AK41'Uld",
         
@@ -60,7 +60,7 @@
     },
 
     "2002-A": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tehnika",
         "qe_device_name": "",
         
@@ -70,7 +70,7 @@
     },
 
     "2002-B": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tehnika",
         "qe_device_name": "",
         
@@ -80,7 +80,7 @@
     },
 
     "2002-C": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tehnika",
         "qe_device_name": "",
         
@@ -90,7 +90,7 @@
     },
     
     "2003": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Arvutiklass",
         "qe_device_name": "AK04'Vent'SV1'Vav",
         
@@ -100,7 +100,7 @@
     }, 
     
     "2004": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Arvutiklass",
         "qe_device_name": "AK04'Vent'SV1'Vav1",
         
@@ -110,7 +110,7 @@
     }, 
     
     "2005": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Arvutiklass",
         "qe_device_name": "AK04'Vent'SV1'Vav2",
         
@@ -120,7 +120,7 @@
     }, 
     
     "2006": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Arvutiklass",
         "qe_device_name": "AK04'Vent'SV1'Vav3",
         
@@ -130,7 +130,7 @@
     }, 
     
     "2007": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Labor AG ja VR",
         "qe_device_name": "",
         
@@ -140,7 +140,7 @@
     }, 
 
     "2008": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC",
         "qe_device_name": "",
         
@@ -150,7 +150,7 @@
     }, 
 
     "2009": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC",
         "qe_device_name": "",
         
@@ -160,7 +160,7 @@
     }, 
     
     "2010": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK01'Vent'SV5'Vav3",
         
@@ -170,7 +170,7 @@
     }, 
 
     "2011": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Neuroturunduse labor",
         "qe_device_name": "",
         
@@ -180,7 +180,7 @@
     }, 
 
     "2012": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Neuroturunduse katseruum",
         "qe_device_name": "",
         
@@ -190,7 +190,7 @@
     }, 
 
     "2013": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trepikoda",
         "qe_device_name": "",
         
@@ -200,7 +200,7 @@
     }, 
 
     "2014": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Koristus",
         "qe_device_name": "",
         
@@ -211,7 +211,7 @@
 
 
     "2015": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tehnika",
         "qe_device_name": "",
         
@@ -221,7 +221,7 @@
     }, 
 
     "2016": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Hoiuruum",
         "qe_device_name": "",
         
@@ -231,7 +231,7 @@
     }, 
     
     "2017": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Arvutiklass",
         "qe_device_name": "AK01'Vent'SV5'Vav1",
         
@@ -241,7 +241,7 @@
     }, 
     
     "2018": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "IoT labor 2",
         "qe_device_name": "AK04'Vent'SV7'Vav",
         
@@ -251,7 +251,7 @@
     }, 
     
     "2019": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "IoT labor 1",
         "qe_device_name": "AK04'Vent'SV7'Vav",
         
@@ -261,7 +261,7 @@
     }, 
     
     "2020": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Robootika labor",
         "qe_device_name": "AK04'Vent'SV7'Vav",
         
@@ -271,7 +271,7 @@
     }, 
     
     "2021": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Arvutiklass",
         "qe_device_name": "AK01'Vent'SV5'Vav2",
         
@@ -281,7 +281,7 @@
     }, 
     
     "2022": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Labor (Šahab)",
         "qe_device_name": "AK04'Vent'SV7'Vav1",
         
@@ -291,7 +291,7 @@
     }, 
 
     "2023": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Labor (arvutitehnika)",
         "qe_device_name": "",
         
@@ -301,7 +301,7 @@
     }, 
     
     "2024": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Labor (suur arvutitehnika)",
         "qe_device_name": "AK04'Vent'SV7'Vav2",
         
@@ -311,7 +311,7 @@
     }, 
     
     "2025": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Labor (mehaanika)",
         "qe_device_name": "",
         
@@ -321,7 +321,7 @@
     }, 
     
     "2026": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Laoruum (arvutitehnika)",
         "qe_device_name": "",
         
@@ -331,7 +331,7 @@
     }, 
     
     "2027": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Labor (arvutitehnika)",
         "qe_device_name": "",
         
@@ -341,7 +341,7 @@
     }, 
     
     "2028": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Töömees",
         "qe_device_name": "",
         
@@ -351,7 +351,7 @@
     }, 
     
     "2029": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Arvutiklass",
         "qe_device_name": "AK02'Vent'SV4'Vav10",
         
@@ -361,7 +361,7 @@
     }, 
     
     "2030": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Arvutiklass",
         "qe_device_name": "AK02'Vent'SV4'Vav11",
         
@@ -371,7 +371,7 @@
     },  
 
     "2031": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Koristus",
         "qe_device_name": "",
         
@@ -381,7 +381,7 @@
     },
 
     "2032": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tehnika",
         "qe_device_name": "",
         
@@ -391,7 +391,7 @@
     },  
 
     "2033": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trepikoda",
         "qe_device_name": "",
         
@@ -401,7 +401,7 @@
     },  
     
     "2034": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK02'Vent'SV4'Vav12",
         
@@ -411,7 +411,7 @@
     }, 
     
     "2035": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK02'Vent'SV4'Vav13",
         
@@ -421,7 +421,7 @@
     }, 
 
     "2036": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tudengite puhkeala",
         "qe_device_name": "",
         
@@ -431,7 +431,7 @@
     }, 
 
     "2037": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC",
         "qe_device_name": "",
         
@@ -441,7 +441,7 @@
     }, 
 
     "2038": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tudengite köök",
         "qe_device_name": "",
         
@@ -451,7 +451,7 @@
     }, 
     
     "2039": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK02'Vent'SV4'Vav4",
         
@@ -461,7 +461,7 @@
     }, 
     
     "2040": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK02'Vent'SV4'Vav5",
         
@@ -471,7 +471,7 @@
     }, 
     
     "2041": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Stuudio",
         "qe_device_name": "",
         
@@ -481,7 +481,7 @@
     }, 
     
     "2042": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Büroo",
         "qe_device_name": "",
         
@@ -491,7 +491,7 @@
     }, 
     
     "2043": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trepikoda",
         "qe_device_name": "",
         
@@ -501,7 +501,7 @@
     }, 
 
     "2044": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC",
         "qe_device_name": "",
         
@@ -511,7 +511,7 @@
     }, 
 
     "2045": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK02'Vent'SV4'Vav9",
         
@@ -521,7 +521,7 @@
     }, 
     
     "2046": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK02'Vent'SV4'Vav8",
         
@@ -531,7 +531,7 @@
     }, 
     
     "2047": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK02'Vent'SV4'Vav7",
         
@@ -541,7 +541,7 @@
     }, 
     
     "2048": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK02'Vent'SV4'Vav6 ",
         
@@ -551,7 +551,7 @@
     }, 
     
     "2049": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Nõupidamine",
         "qe_device_name": "AK04'Vent'SV1'Vav4 ",
         
@@ -561,7 +561,7 @@
     }, 
     
     "2050": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC",
         "qe_device_name": "",
         
@@ -571,7 +571,7 @@
     },
 
     "2051": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Kabinet (IT tugi)",
         "qe_device_name": "",
         
@@ -581,7 +581,7 @@
     },
 
     "2052": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tehnika",
         "qe_device_name": "",
         
@@ -591,7 +591,7 @@
     },
 
     "2053": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trepikoda",
         "qe_device_name": "",
         
@@ -602,7 +602,7 @@
     
 
     "QR-A": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -612,7 +612,7 @@
     },
     
     "QR-B": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -622,7 +622,7 @@
     },
     
     "QR-C": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -632,7 +632,7 @@
     },
     
     "QR-D": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -642,7 +642,7 @@
     },
     
     "QR-E": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -652,7 +652,7 @@
     },
     
     "QR-F": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -662,7 +662,7 @@
     },
     
     "QR-G": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -672,7 +672,7 @@
     },
     
     "QR-H": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -682,7 +682,7 @@
     },
     
     "QR-I": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -692,7 +692,7 @@
     },
     
     "QR-J": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Koosolekuruum",
         "qe_device_name": "",
         
@@ -722,7 +722,7 @@
 
 
     "1001": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tuulekoda",
         "qe_device_name": "",
         
@@ -733,7 +733,7 @@
 
     
     "1002": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Koridor",
         "qe_device_name": "",
         
@@ -744,7 +744,7 @@
 
 
     "1002-A": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Lift-1",
         "qe_device_name": "",
         
@@ -755,7 +755,7 @@
 
 
     "1002-B": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Lift-2",
         "qe_device_name": "",
         
@@ -766,7 +766,7 @@
 
 
     "1002-C": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Lift-3",
         "qe_device_name": "",
         
@@ -777,7 +777,7 @@
 
     
     "1003": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC",
         "qe_device_name": "",
         
@@ -788,7 +788,7 @@
 
     
     "1004": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK01'Vent'SV6'Vav ",
         
@@ -799,7 +799,7 @@
 
     
     "1005": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK01'Vent'SV6'Vav1",
         
@@ -810,7 +810,7 @@
     
     
     "1006": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK01'Vent'SV6'Vav2",
         
@@ -821,7 +821,7 @@
     
     
     "1007": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK01'Vent'SV6'Vav3",
         
@@ -832,7 +832,7 @@
     
     
     "1008": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK01'Vent'SV6'Vav4",
         
@@ -843,7 +843,7 @@
     
     
     "1009": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Koristus",
         "qe_device_name": "",
         
@@ -854,7 +854,7 @@
     
     
     "1010": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC",
         "qe_device_name": "",
         
@@ -865,7 +865,7 @@
     
     
     "1011": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trepikoda",
         "qe_device_name": "",
         
@@ -876,7 +876,7 @@
     
     
     "1012": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trepikoda",
         "qe_device_name": "",
         
@@ -887,7 +887,7 @@
     
     
     "1013": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Raamatukogu hoidla",
         "qe_device_name": "",
         
@@ -898,7 +898,7 @@
     
     
     "1014": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tehnika",
         "qe_device_name": "",
         
@@ -909,7 +909,7 @@
     
     
     "1015": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Lugemissaal",
         "qe_device_name": "AK01'Vent'SV5'Vav",
         
@@ -920,7 +920,7 @@
     
     
     "1016": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Ladu",
         "qe_device_name": "",
         
@@ -931,7 +931,7 @@
     
     
     "1017": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK01'Vent'SV2'Vav",
         
@@ -942,7 +942,7 @@
     
     
     "1018": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK01'Vent'SV2'Vav1",
         
@@ -953,7 +953,7 @@
     
     
     "1019": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK01'Vent'SV2'Vav2",
         
@@ -964,7 +964,7 @@
     
     
     "1020": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK01'Vent'SV2'Vav3",
         
@@ -975,7 +975,7 @@
     
     
     "1021": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK03'Vent'SV3'Vav",
         
@@ -986,7 +986,7 @@
     
     
     "1022": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK03'Vent'SV3'Vav1",
         
@@ -997,7 +997,7 @@
     
     
     "1023": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tuulekoda",
         "qe_device_name": "",
         
@@ -1008,7 +1008,7 @@
     
     
     "1024": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK02'Vent'SV4'Vav",
         
@@ -1019,7 +1019,7 @@
     
     
     "1025": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK02'Vent'SV4'Vav1",
         
@@ -1030,7 +1030,7 @@
     
     
     "1026": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Seminariruum",
         "qe_device_name": "AK02'Vent'SV4'Vav2",
         
@@ -1041,7 +1041,7 @@
     
     
     "1027": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Koristus",
         "qe_device_name": "",
         
@@ -1052,7 +1052,7 @@
     
     
     "1028": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tehnika",
         "qe_device_name": "",
         
@@ -1063,7 +1063,7 @@
     
     
     "1029": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trepikoda",
         "qe_device_name": "",
         
@@ -1074,7 +1074,7 @@
     
     
     "1030": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Ideelabor",
         "qe_device_name": "AK02'Vent'SV4'RomMon",
         
@@ -1085,7 +1085,7 @@
 
 
     "1030-A": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Kabinet",
         "qe_device_name": "",
         
@@ -1096,7 +1096,7 @@
     
 
     "1030-B": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Nõupidamine",
         "qe_device_name": "",
         
@@ -1107,7 +1107,7 @@
 
     
     "1031": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Köök",
         "qe_device_name": "",
         
@@ -1118,7 +1118,7 @@
     
     
     "1031-A": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Nõudepesu",
         "qe_device_name": "",
         
@@ -1129,7 +1129,7 @@
     
     
     "1031-B": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Ladu",
         "qe_device_name": "",
         
@@ -1140,7 +1140,7 @@
     
     
     "1031-C": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Kabinet",
         "qe_device_name": "",
         
@@ -1151,7 +1151,7 @@
     
     
     "1031-D": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Riietusruum",
         "qe_device_name": "",
         
@@ -1162,7 +1162,7 @@
     
     
     "1031-E": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC",
         "qe_device_name": "",
         
@@ -1173,7 +1173,7 @@
     
     
     "1031-F": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Koridor",
         "qe_device_name": "",
         
@@ -1184,7 +1184,7 @@
     
     
     "1031-G": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Dušh",
         "qe_device_name": "",
         
@@ -1195,7 +1195,7 @@
 
     
     "1032": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Prügiruum",
         "qe_device_name": "",
         
@@ -1206,7 +1206,7 @@
     
     
     "1033": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Aednik",
         "qe_device_name": "",
         
@@ -1217,7 +1217,7 @@
     
     
     "1034": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC",
         "qe_device_name": "",
         
@@ -1228,7 +1228,7 @@
 
 
     "1034-F": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "WC Inva",
         "qe_device_name": "",
         
@@ -1239,7 +1239,7 @@
     
     
     "1035": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Garderoob",
         "qe_device_name": "",
         
@@ -1250,7 +1250,7 @@
     
     
     "1036": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Hoiuruum",
         "qe_device_name": "",
         
@@ -1261,7 +1261,7 @@
     
     
     "1037": {
-        "has_events": true,
+        "has_timetable_events": true,
         "description": "Auditoorium",
         "qe_device_name": "AK03'Vent'SV9",
         
@@ -1272,7 +1272,7 @@
     
     
     "1038": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Turva",
         "qe_device_name": "",
         
@@ -1283,7 +1283,7 @@
 
 
     "1038-A": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Turva",
         "qe_device_name": "",
         
@@ -1294,7 +1294,7 @@
     
     
     "1039": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Arvutimuuseum",
         "qe_device_name": "",
         
@@ -1305,7 +1305,7 @@
     
     
     "1040": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Halduri ruum",
         "qe_device_name": "",
         
@@ -1316,7 +1316,7 @@
     
 
     "1041": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trepikoda",
         "qe_device_name": "",
         
@@ -1327,7 +1327,7 @@
     
     
     "1042": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Tehnika",
         "qe_device_name": "",
         
@@ -1338,7 +1338,7 @@
 
     
     "1043": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trepikoda",
         "qe_device_name": "",
         
@@ -1349,7 +1349,7 @@
 
     
     "1044": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Madalpinge jaotla",
         "qe_device_name": "",
         
@@ -1360,7 +1360,7 @@
 
     
     "1045": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trafo 1",
         "qe_device_name": "",
         
@@ -1371,7 +1371,7 @@
 
     
     "1046": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Generaator",
         "qe_device_name": "",
         
@@ -1382,7 +1382,7 @@
 
     
     "1047": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Alajaam",
         "qe_device_name": "",
         
@@ -1393,7 +1393,7 @@
 
 
     "1048": {
-        "has_events": false,
+        "has_timetable_events": false,
         "description": "Trafo 2",
         "qe_device_name": "",
         
