@@ -1,0 +1,794 @@
+{
+  "1001": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1002": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1003": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1004": {
+    "qe_temperature": "22.5",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "405",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1005": {
+    "qe_temperature": "23.9",
+    "qe_temperature_time": "2024-06-11T15:59:00.000Z",
+    "qe_co2": "481",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1006": {
+    "qe_temperature": "22.9",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "425",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1007": {
+    "qe_temperature": "22.3",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "415",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1008": {
+    "qe_temperature": "21.7",
+    "qe_temperature_time": "2024-06-11T15:59:00.000Z",
+    "qe_co2": "408",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1009": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1010": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1011": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1012": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1013": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1014": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1015": {
+    "qe_temperature": "24.3",
+    "qe_temperature_time": "2024-06-11T15:48:00.000Z",
+    "qe_co2": "511",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1016": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1017": {
+    "qe_temperature": "22.6",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "415",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1018": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "420",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1019": {
+    "qe_temperature": "21.7",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "424",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1020": {
+    "qe_temperature": "22.2",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "443",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1021": {
+    "qe_temperature": "22.3",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1022": {
+    "qe_temperature": "21.4",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1023": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1024": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1025": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1026": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1027": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1028": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1029": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1030": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1031": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1032": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1033": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1034": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1035": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1036": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1037": {
+    "qe_temperature": "21.5",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "429",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "1038": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1039": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1040": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1041": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1042": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1043": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1044": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1045": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1046": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1047": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1048": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2001": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2002": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2003": {
+    "qe_temperature": "21.9",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "405",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "2004": {
+    "qe_temperature": "20.4",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "497",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "2005": {
+    "qe_temperature": "24.5",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "452",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "2006": {
+    "qe_temperature": "22.8",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "416",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "2007": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2008": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2009": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2010": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "438",
+    "qe_co2_time": "2024-06-11T15:59:00.000Z"
+  },
+  "2011": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2012": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2013": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2014": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2015": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2016": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2017": {
+    "qe_temperature": "23.5",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "419",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "2018": {
+    "qe_temperature": "23.4",
+    "qe_temperature_time": "2024-06-11T15:59:00.000Z",
+    "qe_co2": "400",
+    "qe_co2_time": "2024-06-11T15:56:00.000Z"
+  },
+  "2019": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "424",
+    "qe_co2_time": "2024-06-11T15:58:00.000Z"
+  },
+  "2020": {
+    "qe_temperature": "22.4",
+    "qe_temperature_time": "2024-06-11T15:58:00.000Z",
+    "qe_co2": "403",
+    "qe_co2_time": "2024-06-11T15:56:00.000Z"
+  },
+  "2021": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "507",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "2022": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "412",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "2023": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2024": {
+    "qe_temperature": "23.7",
+    "qe_temperature_time": "2024-06-11T16:00:00.000Z",
+    "qe_co2": "477",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "2025": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2026": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2027": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2028": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2029": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2030": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2031": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2032": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2033": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2034": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2035": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2036": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2037": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2038": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2039": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2040": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2041": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2042": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2043": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2044": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2045": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2046": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2047": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2048": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2049": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "400",
+    "qe_co2_time": "2024-06-11T16:00:00.000Z"
+  },
+  "2050": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2051": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2052": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2053": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2001-A": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2001-B": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2001-C": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2001-D": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2002-A": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2002-B": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "2002-C": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-A": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-B": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-C": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-D": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-E": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-F": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-G": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-H": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-I": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "QR-J": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1002-A": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1002-B": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1002-C": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1030-A": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1030-B": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1031-A": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1031-B": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1031-C": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1031-D": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1031-E": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1031-F": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1031-G": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1034-F": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  },
+  "1038-A": {
+    "qe_temperature": "No data",
+    "qe_temperature_time": "No data",
+    "qe_co2": "No data",
+    "qe_co2_time": "No data"
+  }
+}

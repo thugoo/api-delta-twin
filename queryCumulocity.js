@@ -17,8 +17,8 @@ async function queryCumulocity() {
      * If no data points for a measurement are returned from the current querying run, 
      * the corresponding measurement values from the last querying run are used.
      */
-    if (fs.existsSync('room_measurements.json')) {
-        lastQueries = JSON.parse(fs.readFileSync('room_measurements.json', 'utf8'));
+    if (fs.existsSync('measurements.json')) {
+        lastQueries = JSON.parse(fs.readFileSync('measurements.json', 'utf8'));
     } else {
         lastQueries = {};
     }
@@ -84,8 +84,8 @@ async function queryCumulocity() {
 
     }
 
-    fs.writeFileSync('room_measurements.json', JSON.stringify(data, null, 2));
-    console.info(`Successfully queried Cumulocity. "room_measurements.json" file updated at ${new Date().toISOString()}`);
+    fs.writeFileSync('measurements.json', JSON.stringify(data, null, 2));
+    console.info(`Successfully queried Cumulocity. "measurements.json" file updated at ${new Date().toISOString()}`);
 }
 
 
@@ -105,7 +105,7 @@ const password = auth["password"];
 let rooms;
 
 try {
-    const jsonString = fs.readFileSync("room_mapping.json", 'utf8');
+    const jsonString = fs.readFileSync("mappings.json", 'utf8');
 
     const roomMappings = JSON.parse(jsonString);
     rooms = [];

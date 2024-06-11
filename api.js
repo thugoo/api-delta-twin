@@ -15,7 +15,7 @@ const clientUrl = "http://localhost:3000";
 app.use(cors({ origin: clientUrl }))
 
 app.get('/api/measurements', (req, res) => {
-    fs.readFile('room_measurements.json', 'utf8', (err, fileData) => {
+    fs.readFile('measurements.json', 'utf8', (err, fileData) => {
 
         if (err) {
             res.status(500).send('Error reading data');
@@ -34,7 +34,7 @@ app.get('/api/measurements', (req, res) => {
 
 
 app.get('/api/timetables_sis', (req, res) => {
-    fs.readFile('room_sis_timetables.json', 'utf8', (err, fileData) => {
+    fs.readFile('timetables_sis.json', 'utf8', (err, fileData) => {
 
         if (err) {
             res.status(500).send('Error reading data');
@@ -53,7 +53,7 @@ app.get('/api/timetables_sis', (req, res) => {
 
 
 app.get('/api/timetables_deltaqr', (req, res) => {
-    fs.readFile('room_deltaqr_timetables.json', 'utf8', (err, fileData) => {
+    fs.readFile('timetables_deltaqr.json', 'utf8', (err, fileData) => {
 
         if (err) {
             res.status(500).send('Error reading data');

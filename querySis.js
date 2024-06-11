@@ -48,8 +48,8 @@ async function querySis() {
         }
     }
 
-    fs.writeFileSync('room_sis_timetables.json', JSON.stringify(roomSisTimetables, null, 2));
-    console.info(`Successfully queried SIS. "room_sis_timetables.json" file updated at ${new Date().toISOString()}`);
+    fs.writeFileSync('timetables_sis.json', JSON.stringify(roomSisTimetables, null, 2));
+    console.info(`Successfully queried SIS. "timetables_sis.json" file updated at ${new Date().toISOString()}`);
 }
 
 
@@ -82,7 +82,7 @@ function processCurrentEvent() {
         return now;
     }
 
-    const jsonString = fs.readFileSync("room_sis_timetables.json", 'utf8');
+    const jsonString = fs.readFileSync("timetables_sis.json", 'utf8');
     roomSisTimetables = JSON.parse(jsonString);
     let currentTime = new Date();
     for (let [room, timetable] of Object.entries(roomSisTimetables)) {
@@ -105,8 +105,8 @@ function processCurrentEvent() {
         }
     }
 
-    fs.writeFileSync('room_sis_timetables.json', JSON.stringify(roomSisTimetables, null, 2));
-    console.info(`Successfully processed current SIS timetable events. "room_sis_timetables.json" file updated at ${new Date().toISOString()}`);
+    fs.writeFileSync('timetables_sis.json', JSON.stringify(roomSisTimetables, null, 2));
+    console.info(`Successfully processed current SIS timetable events. "timetables_sis.json" file updated at ${new Date().toISOString()}`);
 }
 
 
@@ -133,7 +133,7 @@ let payload = {
 let roomSisTimetables;
 
 try {
-    const jsonString = fs.readFileSync("room_mapping.json", 'utf8');
+    const jsonString = fs.readFileSync("mappings.json", 'utf8');
 
     const roomMappings = JSON.parse(jsonString);
     const rooms = Object.keys(roomMappings);

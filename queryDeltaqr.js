@@ -78,8 +78,8 @@ async function queryDeltaqr() {
         }
     }
 
-    fs.writeFileSync('room_deltaqr_timetables.json', JSON.stringify(roomDeltaqrTimetables, null, 2));
-    console.info(`Successsfully queried DeltaQR. "room_deltaqr_timetables.json" file updated at ${new Date().toISOString()}`);
+    fs.writeFileSync('timetables_deltaqr.json', JSON.stringify(roomDeltaqrTimetables, null, 2));
+    console.info(`Successsfully queried DeltaQR. "timetables_deltaqr.json" file updated at ${new Date().toISOString()}`);
 }
 
 
@@ -92,7 +92,7 @@ function processCurrentEvent() {
         return now;
     }
 
-    const jsonString = fs.readFileSync("room_deltaqr_timetables.json", 'utf8');
+    const jsonString = fs.readFileSync("timetables_deltaqr.json", 'utf8');
     roomDeltaqrTimetables = JSON.parse(jsonString);
     let currentTime = new Date();
     for (let [room, timetable] of Object.entries(roomDeltaqrTimetables)) {
@@ -115,8 +115,8 @@ function processCurrentEvent() {
         }
     }
 
-    fs.writeFileSync('room_deltaqr_timetables.json', JSON.stringify(roomDeltaqrTimetables, null, 2));
-    console.info(`Successfully processed current DeltaQR timetable events. "room_deltaqr_timetables.json" file updated at ${new Date().toISOString()}`);
+    fs.writeFileSync('timetables_deltaqr.json', JSON.stringify(roomDeltaqrTimetables, null, 2));
+    console.info(`Successfully processed current DeltaQR timetable events. "timetables_deltaqr.json" file updated at ${new Date().toISOString()}`);
 }
 
 
@@ -129,7 +129,7 @@ async function initialize() {
 let roomDeltaqrTimetables;
 
 try {
-    const jsonString = fs.readFileSync("room_mapping.json", 'utf8');
+    const jsonString = fs.readFileSync("mappings.json", 'utf8');
 
     const roomMappings = JSON.parse(jsonString);
     const rooms = Object.keys(roomMappings);
