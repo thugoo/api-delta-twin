@@ -1,7 +1,7 @@
 auth.json
 
-room_measurements.json
-room_sis_timetables.json
-room_timetables.json
+measurements.json
+timetables_sis.json
+timetables_deltaqr.json
 
 /node_modules

@@ -18,34 +18,34 @@
     "qe_co2_time": "No data"
   },
   "1004": {
-    "qe_temperature": "22.5",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "416",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "22.1",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "414",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1005": {
-    "qe_temperature": "24.0",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "466",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "23.9",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "477",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1006": {
-    "qe_temperature": "22.7",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "422",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "22.9",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "419",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1007": {
-    "qe_temperature": "22.3",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "412",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "22.4",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "414",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1008": {
-    "qe_temperature": "21.5",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "405",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "21.7",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "402",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1009": {
     "qe_temperature": "No data",
@@ -86,8 +86,8 @@
   "1015": {
     "qe_temperature": "24.3",
     "qe_temperature_time": "2024-06-11T15:48:00.000Z",
-    "qe_co2": "511",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_co2": "523",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1016": {
     "qe_temperature": "No data",
@@ -98,36 +98,36 @@
   "1017": {
     "qe_temperature": "22.6",
     "qe_temperature_time": "2024-06-11T16:00:00.000Z",
-    "qe_co2": "423",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_co2": "421",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1018": {
     "qe_temperature": "No data",
     "qe_temperature_time": "No data",
-    "qe_co2": "422",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_co2": "424",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1019": {
-    "qe_temperature": "21.8",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "426",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "21.7",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "424",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1020": {
-    "qe_temperature": "22.1",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "440",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "21.9",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "426",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1021": {
     "qe_temperature": "21.9",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
     "qe_co2": "No data",
     "qe_co2_time": "No data"
   },
   "1022": {
-    "qe_temperature": "21.5",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
+    "qe_temperature": "21.8",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
     "qe_co2": "No data",
     "qe_co2_time": "No data"
   },
@@ -216,10 +216,10 @@
     "qe_co2_time": "No data"
   },
   "1037": {
-    "qe_temperature": "22.1",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "439",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "21.9",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "442",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "1038": {
     "qe_temperature": "No data",
@@ -300,28 +300,28 @@
     "qe_co2_time": "No data"
   },
   "2003": {
-    "qe_temperature": "21.9",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "399",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "21.8",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "410",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2004": {
     "qe_temperature": "20.2",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "484",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "495",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2005": {
-    "qe_temperature": "24.4",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "445",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "24.0",
+    "qe_temperature_time": "2024-06-11T16:05:00.000Z",
+    "qe_co2": "451",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2006": {
-    "qe_temperature": "22.5",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
+    "qe_temperature": "22.3",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
     "qe_co2": "435",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2007": {
     "qe_temperature": "No data",
@@ -344,8 +344,8 @@
   "2010": {
     "qe_temperature": "No data",
     "qe_temperature_time": "No data",
-    "qe_co2": "436",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_co2": "437",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2011": {
     "qe_temperature": "No data",
@@ -384,10 +384,10 @@
     "qe_co2_time": "No data"
   },
   "2017": {
-    "qe_temperature": "23.5",
-    "qe_temperature_time": "2024-06-11T16:02:00.000Z",
-    "qe_co2": "417",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "23.2",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "410",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2018": {
     "qe_temperature": "23.2",
@@ -398,8 +398,8 @@
   "2019": {
     "qe_temperature": "No data",
     "qe_temperature_time": "No data",
-    "qe_co2": "430",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_co2": "423",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2020": {
     "qe_temperature": "22.6",
@@ -410,14 +410,14 @@
   "2021": {
     "qe_temperature": "No data",
     "qe_temperature_time": "No data",
-    "qe_co2": "508",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_co2": "504",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2022": {
     "qe_temperature": "No data",
     "qe_temperature_time": "No data",
-    "qe_co2": "409",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_co2": "408",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2023": {
     "qe_temperature": "No data",
@@ -426,10 +426,10 @@
     "qe_co2_time": "No data"
   },
   "2024": {
-    "qe_temperature": "23.9",
-    "qe_temperature_time": "2024-06-11T16:04:00.000Z",
-    "qe_co2": "487",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_temperature": "23.3",
+    "qe_temperature_time": "2024-06-11T16:06:00.000Z",
+    "qe_co2": "483",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2025": {
     "qe_temperature": "No data",
@@ -578,8 +578,8 @@
   "2049": {
     "qe_temperature": "No data",
     "qe_temperature_time": "No data",
-    "qe_co2": "397",
-    "qe_co2_time": "2024-06-11T16:04:00.000Z"
+    "qe_co2": "392",
+    "qe_co2_time": "2024-06-11T16:06:00.000Z"
   },
   "2050": {
     "qe_temperature": "No data",
