@@ -27,7 +27,7 @@ async function queryCumulocity() {
 
     for (let roomData of rooms) {
 
-        let response = {}
+        let result = {}
 
         let roomNumber = roomData["room_number"];
         let deviceId = roomData["qe_device_id"];
@@ -39,7 +39,7 @@ async function queryCumulocity() {
 
             if (type) {
                 const endpoint = `/measurement/measurements?source=${deviceId}&dateFrom=${oneMinuteAgo}&dateTo=${currentMinute}&valueFragmentType=${type}`;
-                const res = await axios.get(`${domain}${endpoint}`, {
+                const response = await axios.get(`${domain}${endpoint}`, {
                     headers: {
                         'Authorization': `Basic ${Buffer.from(`${username}:${password}`).toString('base64')}`
                     }
@@ -57,30 +57,30 @@ async function queryCumulocity() {
                  *    and corresponding measurement values from the last querying run do not exist.
                  * 
                  */
-                if (res.data["measurements"].length > 0) {
-                    let date = new Date(res.data["measurements"][0]["time"]);
+                if (response.data["measurements"].length > 0) {
+                    let date = new Date(response.data["measurements"][0]["time"]);
                     date.setSeconds(0, 0);
                     let formattedDate = date.toISOString();
                     let decimal = (type.includes("DP")) ? 0 : 1
-                    response[key] = parseFloat(res.data["measurements"][0][type]["T"]["value"]).toFixed(decimal);
-                    response[`${key}_time`] = formattedDate;
+                    result[key] = parseFloat(response.data["measurements"][0][type]["T"]["value"]).toFixed(decimal);
+                    result[`${key}_time`] = formattedDate;
 
-                } else if (roomNumber in lastQueries) {
-                    response[key] = lastQueries[roomNumber][key];
-                    response[`${key}_time`] = lastQueries[roomNumber][`${key}_time`];
+                } else if (roomNumber in lastQueries && lastQueries[roomNumber][key]) {
+                    result[key] = lastQueries[roomNumber][key];
+                    result[`${key}_time`] = lastQueries[roomNumber][`${key}_time`];
 
                 } else {
-                    response[key] = "No data";
-                    response[`${key}_time`] = "No data";
+                    result[key] = "No data";
+                    result[`${key}_time`] = "No data";
                 }
 
             } else {
-                response[key] = "No data";
-                response[`${key}_time`] = "No data";
+                result[key] = "No data";
+                result[`${key}_time`] = "No data";
             }
         }
 
-        data[roomData["room_number"]] = response
+        data[roomData["room_number"]] = result
 
     }
 
@@ -92,9 +92,9 @@ async function queryCumulocity() {
 /**
  * Initial boot setup.
  * 
- * 1. Read in the authorization information for Cumulocity, located in auth.json.
- * 2. Read in the mappings between room numbers and device ID values.
- * 3. Start querying Cumulocity for temperate and CO2 concentration values.
+ * 1. Read in the authorization information for Cumulocity from "auth.json".
+ * 2. Configure the mappings between room numbers and device ID values.
+ * 3. Start querying Cumulocity for temperature and CO2 concentration values.
  */
 const auth = JSON.parse(fs.readFileSync('auth.json', 'utf8'));
 
@@ -122,11 +122,10 @@ try {
             }  
         );
     }
-
-    // Querying Cumulocity initially and then every minute thereafter.
-    queryCumulocity();
-    cron.schedule('* * * * *', queryCumulocity);
-
 } catch (err) {
-    console.error("Error reading file:", err);
+    console.error(err);
 }
+
+// Querying Cumulocity initially and then every minute thereafter.
+queryCumulocity();
+cron.schedule('* * * * *', queryCumulocity);

@@ -246,7 +246,7 @@
         "qe_device_name": "AK04'Vent'SV7'Vav",
         
         "qe_device_id": "699",
-        "qe_temperature": "T su",
+        "qe_temperature": "T Su",
         "qe_co2": "DP"
     }, 
     
@@ -256,7 +256,7 @@
         "qe_device_name": "AK04'Vent'SV7'Vav",
         
         "qe_device_id": "699",
-        "qe_temperature": "T su1",
+        "qe_temperature": "T Su1",
         "qe_co2": "DP1"
     }, 
     
@@ -286,7 +286,7 @@
         "qe_device_name": "AK04'Vent'SV7'Vav1",
         
         "qe_device_id": "701",
-        "qe_temperature": "T su",
+        "qe_temperature": "T Su",
         "qe_co2": "DP"
     }, 
 
@@ -306,7 +306,7 @@
         "qe_device_name": "AK04'Vent'SV7'Vav2",
         
         "qe_device_id": "703",
-        "qe_temperature": "T su",
+        "qe_temperature": "T Su",
         "qe_co2": "DP"
     }, 
     
@@ -936,7 +936,7 @@
         "qe_device_name": "AK01'Vent'SV2'Vav",
         
         "qe_device_id": "170",
-        "qe_temperature": "T su2",
+        "qe_temperature": "T Su2",
         "qe_co2": "DP"
     },
     
@@ -1266,8 +1266,8 @@
         "qe_device_name": "AK03'Vent'SV9",
         
         "qe_device_id": "597",
-        "qe_temperature": "T su3",
-        "qe_co2": "D"
+        "qe_temperature": "T Su3",
+        "qe_co2": "DP"
     },
     
     
