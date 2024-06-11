@@ -70,7 +70,7 @@ API is available at http://172.17.89.119.nip.io/api. Access requires a connectio
 
 ## Workflow flowchart
 
-![Workflow](workflow-flowchart.svg)
+![Workflow](backend_flowchart.svg)
 
 <br>
 
