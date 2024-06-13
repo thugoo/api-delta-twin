@@ -5,7 +5,7 @@ Platform for displaying the current status of the Delta Centre's study and resea
 **This project contains the source code for the backend services, including data querying functionalities and API.**  
 Project containing the source code for the web application can be found [here.](https://github.com/thugoo/client-delta-twin)
 
-API is available at http://172.17.89.119.nip.io/api. Access requires a connection to the UT VPN.
+API is available at http://172.17.89.249/api. Access requires a connection to the UT VPN.
 
 <br>
 
