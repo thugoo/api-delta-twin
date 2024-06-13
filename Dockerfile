@@ -1,12 +1,12 @@
 FROM node:18-alpine
 
-WORKDIR /api_delta_twin
+WORKDIR /api-delta-twin
 
 COPY package*.json ./
 
 RUN npm install
 
-COPY . /api_delta_twin
+COPY . /api-delta-twin
 
 RUN npm install pm2 -g
 

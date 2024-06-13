@@ -3,7 +3,7 @@ module.exports = {
       name: "api",
       script: "./api.js",
       watch: true,
-      ignore_watch : ["room_measurements.json", "room_timetables.json"],
+      ignore_watch : ["measurements.json", "timetables_sis.json", "timetables_deltaqr.json"],
       env: {
         "NODE_ENV": "development",
       },
@@ -11,14 +11,19 @@ module.exports = {
         "NODE_ENV": "production",
       }
     },{
+      name: "querySis",
+      script: "./querySis.js",
+      watch: true,
+      ignore_watch : ["measurements.json", "timetables_sis.json", "timetables_deltaqr.json"],
+    },{
+      name: "queryDeltaqr",
+      script: "./queryDeltaqr.js",
+      watch: true,
+      ignore_watch : ["measurements.json", "timetables_sis.json", "timetables_deltaqr.json"],
+    },{
       name: "queryCumulocity",
       script: "./queryCumulocity.js",
       watch: true,
-      ignore_watch : ["room_timetables.json", "room_measurements.json"],
-    },{
-      name: "queryTimetables",
-      script: "./queryTimetables.js",
-      watch: true,
-      ignore_watch : ["room_timetables.json", "room_measurements.json"],
+      ignore_watch : ["measurements.json", "timetables_sis.json", "timetables_deltaqr.json"],
     }]
   };

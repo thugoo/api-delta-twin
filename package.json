@@ -1,5 +1,5 @@
 {
-  "name": "delta_twin_api",
+  "name": "api-delta-twin",
   "version": "1.0.0",
   "description": "",
   "main": "api.js",
