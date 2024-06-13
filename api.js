@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Use the domain name assigned to the web application
-const clientUrl = "http://172.17.89.249/api";
+const clientUrl = "http://172.17.89.119.nip.io/";
 
 // For local testing
 // const clientUrl = "http://localhost:3000";
